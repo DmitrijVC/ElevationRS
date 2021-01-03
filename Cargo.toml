@@ -1,0 +1,19 @@
+[package]
+name = "elevation"
+version = "0.1.0"
+authors = ["FssAy <49795742+DmitrijVC@users.noreply.github.com>"]
+edition = "2018"
+
+
+[dependencies]
+reqwest = { version = "0.10.10", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+winapi = { version = "0.3.9", features = ["winuser"] }
+whoami = "1.0.1"
+sysinfo = "0.15.1"
+lazy_static = "1.4.0"
+serde_json = "1.0.59"
+magic-crypt = "3.1.6"
+app_dirs = "1.2.1"
+lnk = "0.3.0"
+libc = "0.2.81"
